@@ -1,4 +1,5 @@
 const discord = require("discord.js");
+const keepAlive = require('./server.js');
 const client = new discord.Client()
 const { token, prefix, ServerID } = require("./config.json")
 const config = require('./config.json');
@@ -6,7 +7,13 @@ const config = require('./config.json');
 client.on("ready", () => {
 
     console.log("I am ready to get some DM's!")
-    client.user.setActivity("Watching My Dm's")
+     client.user.setPresence({
+    status: "idle",  // You can show online, idle... Do not disturb is dnd
+    activity: {
+      name: `DMS`,  // The message shown
+      type: "WATCHING" // PLAYING, WATCHING, LISTENING, STREAMING,
+     
+    }
 })
 
 client.on("channelDelete", (channel) => {
@@ -252,8 +259,7 @@ client.on("message", async message => {
 
 
 
-
 })
-
-
+})
+ keepAlive();
 client.login(token)
