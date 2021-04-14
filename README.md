@@ -3,19 +3,9 @@
     <h1>Discord.js Mod Mail Bot</h1>
   </p>
 </div>
-
-## Table Of Contents
-
-- [Table Of Contents](#table-of-contents)
-- [About ❔](#about-)
-- [Installation](#installation)
-- [Usages 🛠](#usages-)
-- [Projects](#projects)
-
-
 ## About ❔
 
-This is a Mod Mail Bot made by FiredragonPlayz#0087 using discord.js!
+This is a Mod Mail Bot made by </Killerclaws1>™#1111 using discord.js!
 
 
 ## Installation 
