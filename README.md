@@ -18,27 +18,18 @@ This is a Mod Mail Bot made by </Killerclaws1>™#1111 using discord.js!
 ## Usages 🛠
 
 - Setting the bot
- - Type `$setup` to automatically setup
+ - Type `<prefix>setup` to automatically setup
 
 - Opening a Ticket
   - DM the bot
-  - Type `$open <user id>` (Must Have Staff Role) 
+  - Type `<prefix> <user id>` (Must Have Staff Role) 
 
 - Closing a Ticket
-  - Type `$close <reason>` (Must Have Staff Role)
+  - Type `<prefix> <reason>` (Must Have Staff Role)
 
-
-## Projects
-
-- Other Projects
-  - [Flame Bot](https://top.gg/bot/796279185080582185)
-  - [Website](https://flamebot.gq)
 
 <div align="center">
   <br />
-  <p>
-    <a href="https://github.com/FiredragonPlayz"><img src="https://cdn.discordapp.com/emojis/798283025183801374.png"alt="Github"width="40" /></a> <a href="https://youtube.com/c/FiredragonPlayz"><img src="https://cdn.discordapp.com/emojis/733371225400803418.png"alt="YouTube" width="50"/></a> <a href="https://twitter.com/Firedragon_Play"><img src="https://cdn.discordapp.com/emojis/772684068156342272.png"alt="Twitter" width="50" /></a>
-  </p>
 </div>
 
 
